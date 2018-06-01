@@ -1,7 +1,7 @@
 <template>
 	<div class="warpper">
 		<swiper :options="swiperOption" >
-		    <swiper-slide v-for="item of swiperList" :key="item.id">
+		    <swiper-slide v-for="item of swiperList"  :key='item.id'>
 		    	<img  class="swiper-img" :src="item.imgUrl" >
 		    </swiper-slide>
 		    
@@ -32,7 +32,6 @@
 	.warpper
 		owerflow: hidden
 		width: 100%
-		height: 0
 		padding-boottom: 31.25%		
 		.swiper-img
 			width: 100%
