@@ -17,10 +17,10 @@ export default {
 		position: relative
 		overflow: hidden
 		height: $headerHeight
-		line-height: $headerHeightm
+		line-height: $headerHeight
 		text-align: center
 		color: #fff
-		background:$bgColor
+		background: $bgColor
 		.header-back
 			position: absolute
 			top: 0

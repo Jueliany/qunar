@@ -10,7 +10,6 @@ export default {
 	components: {
 		CityHeader
 	}
-	
 }
 </script>
 <style lang="stylus" scoped>
