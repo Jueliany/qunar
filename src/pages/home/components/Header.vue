@@ -9,16 +9,20 @@
 		</div>
 		<router-link to='/city'>
 			<div class="header-right">
-				北京
+				{{this.city}}
 				<span class="iconfont arrow-icon">&#xe851;</span>
 			</div>
 		</router-link>
 	</div>
 </template>
 <script>
-	export default {
-		name:'HomeHeader'
+import { mapState } from 'vuex'
+export default {
+	name:'HomeHeader',
+	computed: {
+		...mapState(['city'])
 	}
+}
 </script>
 <style lang="stylus" scoped>
 	@import '~styles/varibles.styl'
@@ -43,12 +47,11 @@
 			height:.64rem;
 			color:#ccc			
 		.header-right
-			width: 1.24rem
+			min-width: 1.04rem
+			padding: 0 0.1rem
 			float: right
 			text-align: center
 			color: #fff
 			.arrow-icon
 				font-size: .24rem
-		
-			
 </style>
