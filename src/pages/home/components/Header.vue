@@ -10,7 +10,7 @@
 		<router-link to='/city'>
 			<div class="header-right">
 				{{this.city}}
-				<span class="iconfont arrow-icon">&#xe851;</span>
+				<span class="iconfont arrow-icon">&#xe64a;</span>
 			</div>
 		</router-link>
 	</div>
@@ -36,6 +36,7 @@ export default {
 			float: left
 			.back-icon
 				text-align: center
+				font-size: .4rem
 		.header-input
 			flex: 1
 			background: #fff

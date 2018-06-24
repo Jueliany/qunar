@@ -32,7 +32,7 @@ export default {
 			return pages
 		}
 	},
-	data ()  {
+	data () {
 		return {
 			swiperOption: {
 				autoplay: false

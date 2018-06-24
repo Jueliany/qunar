@@ -19,7 +19,8 @@ export default {
 		CitySearch,
 		CityList,
 		CityAlphabet
-	},data () {
+	},
+	data () {
 		return {
 			cities: {},
 			hotCities: [],
@@ -40,7 +41,7 @@ export default {
 			}
 		},
 		handleLetterChange (letter) {
-			this.letter=letter
+			this.letter = letter
 		}
 	},
 	mounted () {
